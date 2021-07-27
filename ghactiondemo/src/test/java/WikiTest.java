@@ -33,8 +33,8 @@ public class WikiTest {
         webDriver.get("https://www.wikipedia.org/");
         WebElement englishButton = webDriver.findElement(By.id("js-link-box-en"));
         englishButton.click();
-        String expectedTitle = "Welcome to Wikipedia";
-        WebElement titleDiv = webDriver.findElement(By.xpath("/html/body/div[3]/div[5]/div[1]/div[1]/div/div[1]"));
+        String expectedTitle = "Welcome to Wikipedia,";
+        WebElement titleDiv = webDriver.findElement(By.xpath("//*[@id=\"mp-welcome\"]"));
         Assertions.assertEquals(expectedTitle, titleDiv.getText());
 
     }
