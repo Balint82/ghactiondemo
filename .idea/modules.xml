@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/gh-action-demo.iml" filepath="$PROJECT_DIR$/.idea/gh-action-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ghactiondemo/ghactiondemo.iml" filepath="$PROJECT_DIR$/ghactiondemo/ghactiondemo.iml" />
     </modules>
   </component>
 </project>
